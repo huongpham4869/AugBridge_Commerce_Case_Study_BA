@@ -43,8 +43,8 @@ All documents can be read directly on GitHub. Suggested order:
 | 02 | [BRD](docs/02-brd.md) | Why the change is needed: problem, evidence, root cause analysis, business requirements, business case |
 | 03 | [FRD](docs/03-frd.md) | How the solution works: To-Be process, exception logic, integration, data model, functional requirements |
 | 04 | [User Stories](docs/04-user-stories.md) | Requirements from the user's point of view, with acceptance criteria |
-| 05 | [UAT Test Cases](docs/05-uat-test-cases.md) | How business behavior will be checked: steps, test data and expected results (not run). Technical checks are marked. |
-| 06 | [RTM](docs/06-rtm.md) | Traceability from pain point to test case, with the reason for each link |
+| 05 | [UAT Test Cases](docs/05-uat-test-cases.md) | How business behavior will be checked: test setup, steps, test data and expected results for 34 test cases (33 P1, 1 P2; 13 negative; 5 technical checks). Not run. |
+| 06 | [RTM](docs/06-rtm.md) | Traceability from pain point to test case with the reason for each link, plus NFR and business rule coverage |
 | – | [Data](data) & [SQL](sql) | Simulated data and the SQL behind BRD §5.1: schema, queries, full dataset and sample rows |
 | – | [Assets](assets) | Full-size As-Is and To-Be diagrams, data model, wireframes and slide images |
 
@@ -111,8 +111,8 @@ More detail is in [`data/README.md`](data/README.md).
 | Wireframes | [FRD §10](docs/03-frd.md#10-wireframes) |
 | Release plan and pilot | [FRD §11](docs/03-frd.md#11-release-plan) |
 | User stories with acceptance criteria | [User Stories](docs/04-user-stories.md) |
-| UAT test cases, including negative tests | [UAT Test Cases](docs/05-uat-test-cases.md) |
-| Requirements traceability | [RTM](docs/06-rtm.md) |
+| UAT test cases: test setup, priorities, exit criteria, negative tests and technical checks | [UAT Test Cases](docs/05-uat-test-cases.md) |
+| Requirements traceability, NFR and business rule coverage | [RTM](docs/06-rtm.md) |
 
 ## Repository structure
 
