@@ -1,7 +1,6 @@
 -- AugBridge Commerce - analysis queries used in BRD section 5.1
 -- Data: SIMULATED 12-week dataset (10,685 orders). Tables: see schema.sql.
 -- Full dataset (in ../data/): augbridge_simulated.db (SQLite), or orders.csv and issues.csv.
--- sample_orders.csv only shows the format of the orders table (3 rows per week).
 -- The results below are the actual output of each query on the full dataset.
 -- BRD section 5.1 shows Q2 only, because Q2 returns both the weekly volume
 -- and the overdue rate. Q1 and Q3 are kept here as supporting queries.

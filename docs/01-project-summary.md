@@ -6,8 +6,6 @@
 
 ---
 
-The PowerPoint file is in [`original-files/`](../original-files) (`01_Project_Summary.pptx`).
-
 ## 1. Order Fulfillment Automation & Exception Monitoring
 
 ![Slide 1: Order Fulfillment Automation & Exception Monitoring](../assets/slides/slide-01.png)

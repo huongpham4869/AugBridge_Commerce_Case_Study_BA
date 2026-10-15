@@ -11,7 +11,6 @@ Simulated 12-week order dataset used for the evidence in [BRD §5.1](../docs/02-
 | `augbridge_simulated.db` | SQLite database with all four tables |
 | `orders.csv` | The `orders` table (10,685 rows) |
 | `issues.csv` | The `issues` table (793 rows) |
-| `sample_orders.csv` | 36 sample rows (3 per week) that show the format of the `orders` table |
 
 ## Dataset at a glance
 
@@ -57,6 +56,8 @@ Full definitions are in [`sql/schema.sql`](../sql/schema.sql).
 | `delivered_date` | TEXT | YYYY-MM-DD |
 | `cycle_time_days` | INTEGER | Business days from order to delivery |
 | `is_overdue` | INTEGER | 1 if `cycle_time_days` > 10, else 0 |
+
+`cycle_time_days` does not count the order date. For orders placed on a Saturday or Sunday, the next business day counts as day 1.
 
 **issues**
 

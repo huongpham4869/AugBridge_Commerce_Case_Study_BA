@@ -104,7 +104,7 @@ The project does not currently measure the time spent on each manual order step,
 
 ### 5.1 SQL Analysis of Simulated Order Data
 
-There is no central order database in the current process, so a simulated 12-week dataset was created and analyzed in SQLite. The dataset contains 6 shops, 3 suppliers, 15 SKUs, and 10,685 orders, with weeks 8–11 as peak season. The schema, SQL queries, full dataset, and sample rows are available in the Data & SQL folders ([`data/`](../data), [`sql/`](../sql)). The analysis compares weekly order volume and overdue rates. An order is considered overdue when its order-to-delivery time exceeds 10 business days.
+There is no central order database in the current process, so a simulated 12-week dataset was created and analyzed in SQLite. The dataset contains 6 shops, 3 suppliers, 15 SKUs, and 10,685 orders, with weeks 8–11 as peak season. The schema, SQL queries, and full dataset are available in the Data & SQL folders ([`data/`](../data), [`sql/`](../sql)). The analysis compares weekly order volume and overdue rates. An order is considered overdue when its order-to-delivery time exceeds 10 business days.
 
 **Query - Weekly order volume and overdue rate**
 
